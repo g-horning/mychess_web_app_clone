@@ -1,0 +1,63 @@
+body {
+    background-image: url("http://bgfons.com/upload/paper_texture301.jpg");
+    overflow-y: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Audiowide', cursive;
+} 
+
+
+
+.title {
+  
+  width: 30vw;
+  position: relative;
+  margin: auto;
+  font-size: 3em;
+  font-weight: bold;
+  color: #ffffb3;
+  text-shadow: 0 0 10px rgba(255,226,0,1) , 0 0 20px rgba(255,226,0,1) , 0 0 30px rgba(255,226,0,1);
+      
+}
+
+
+#gameBoard {
+
+    width: 30vw;
+   
+    position: relative;
+    transform: translateY(-10%);
+    margin: auto;
+    box-shadow: 3px 10px 50px 5px rgba(255, 255, 0, 1);
+    background-color: white;
+
+    
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+}
+
+/**
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    transform: translateY(30%);    
+}
+
+**/
+
+/** http://images.psxextreme.com/wallpapers/ps3/gold_and_black_pattern_520.jpg
+  
+    position: relative;
+    top: 50%;
+    transform: translateY(50%); /* or try 50% */
+
